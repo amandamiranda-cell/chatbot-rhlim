@@ -13,6 +13,7 @@ menu_principal = st.selectbox(
     "Selecione um tema:",
     [
         "Selecione...",
+        "Benefícios"
         "Registro de Ponto",
         "Regularização de Frequência",
         "Faltas",
@@ -99,5 +100,6 @@ elif menu_principal == "Horário Variável":
 elif menu_principal == "Outras dúvidas / Enviar e-mail":
     st.write("✉️ Não encontrou sua resposta? Clique no botão abaixo para enviar um e-mail para a Área de Gestão de Pessoas.")
     st.markdown("[Enviar e-mail](mailto:gestaopessoas@lim.com.br)")
+
 
 
